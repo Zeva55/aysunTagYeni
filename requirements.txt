@@ -1,0 +1,17 @@
+telethon
+cryptg
+requests
+Pyrogram==1.4.9
+tgcrypto
+pymongo[srv]
+aiofiles
+psutil
+motor
+telegraph
+youtube_dl
+youtube_search_python 
+search_engine_parser
+youtube_search
+python-arq
+wget 
+yt-dlp

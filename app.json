@@ -1,0 +1,23 @@
+{
+  "name": "EdaletRoBor",
+  "description": "Edaletin robotudur",
+  "repository": "https://github.com/Fakebody31/edaletasistan",
+  "stack": "container",
+  "env": {
+    "TOKEN": {
+      "description": "Bir bot belirteci @botfather ile alınız",
+      "required": true     
+      "value": "5883816340:AAFJpGNHNPNvogeKaLH0duNJjpchsmQ1UOgc"
+    },
+    "APP_ID": {
+      "description": "my.telegram'dan uygulama kimliği.org/apps",
+      "required": true
+      "value": "28054551"
+    },
+    "API_HASH": {
+      "description": "My.telegram'dan uygulama apı-hash.org/apps",
+      "required": true
+      "value": "64a0620c2644ceff0c1058a4ffc861ad"
+    }
+  }
+}
