@@ -53,7 +53,7 @@ async def handler(event):
 async def handler(event):   
     await event.edit(f"📮 Tağ əmirləri bunlardır 📮\n\n\n•━━━━━━━━•••━━━━━━━━•\n🕹 Əmr : /tag \n📜 Açıqlama :<səbəb> - 5-li Tag Atışları.\n🕹 Əmr :  /etag \n📜 Açıqlama :<səbəb> - Emoji ilə etiketlər.\n🕹 Əmr : /stag\n📜 Açıqlama : <səbəb> - Söz'lü Tag etiketlər.\n🕹 Əmr :  /btag\n 📜 Açıqlama : <səbəb> - bayrağlar ilə etiketlər.\n🕹 Əmr :  /mafia\n📜 Açıqlama : <səbəb> - Mafia oyunun rolları ilə etiketlər.\n🕹 Əmr :  /adtag\n📜 Açıqlama : <səbəb> - Marağlı adlar ilə etiket atar.\n🕹 Əmr :  /aysun \n📜 Açıqlama : <səbəb> - Maraglı sözlər ilə tag eder. \n🕹 Əmr :  /tektag \n📜 Açıqlama : <səbəb> - Üzvləri Tək-Tək etiketlər.\n🕹 Əmr :  /admins \n📜 Açıqlama : <səbəb> -İdarəçilər Tək-Tək etiketlər.\n🕹 Əmr :  /cancel \n📜 Açıqlama :  Tag Ələməyi Dayandır.\n", buttons=(
                  [Button.url('Qrup💬', 'https://t.me/ilkinsupport'),
-                      Button.url('Sahib 👨‍💻', 'https://t.me/Nehmedov')],
+                      Button.url('Sahib 👨‍💻', 'https://t.me/nebiyev_o27')],
                  [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
