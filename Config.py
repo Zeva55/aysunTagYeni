@@ -4,9 +4,9 @@ import os
 class Config():
     # Bu dəyərləri my.telegram.org saytından əldə edin
     #>>> https://my.telegram.org
-    API_ID = int(os.environ.get("API_ID","23255992"))
-    API_HASH = os.environ.get("API_HASH","da1c7ce7cfe5cd7e5ebb09cfc981b975")
-    BOT_TOKEN = "6186814134:AAGEhd-iLFEeMIpLRiucFA3KjsogGzvix2o"
+    API_ID = int(os.environ.get("API_ID","26041892"))
+    API_HASH = os.environ.get("API_HASH","b25edf599fd7a94f8d84ce3e4422f409")
+    BOT_TOKEN = "6041859157:AAHNOk1endHo7m_U48vNdNaASYyL0Y3HcDw"
 
 
 from telethon import TelegramClient
