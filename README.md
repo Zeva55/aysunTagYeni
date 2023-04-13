@@ -26,7 +26,7 @@ import random
 async def start(event):
   if event.is_private:
      await event.reply(f"Test dəf kimi işləyir", buttons=(
-        [Button.url("👤 Sahib", url="https://t.me/edalet_22")],
+        [Button.url("👤 Sahib", url="https://t.me/nehmedov")],
     ), 
 
 
@@ -63,10 +63,10 @@ def start(client, message):
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [[
-                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/EdaletProject'),
-                    InlineKeyboardButton('Playlist 🎵', url=f'https://t.me/EdaletRoBotPlayList')
+                    InlineKeyboardButton('Rəsmi Kanal ✅', url='https://t.me/ilkinsupport'),
+                    InlineKeyboardButton('Music Bot 🎵', url=f'https://t.me/QaqliMusicBot')
                   ],[
-                    InlineKeyboardButton('Sahib 👨🏻‍💻', url=f't.me/edalet_22')
+                    InlineKeyboardButton('Sahib 👨🏻‍💻', url=f't.me/ilkin085')
                 ]
             ]
         )
