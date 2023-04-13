@@ -40,7 +40,7 @@ async def start(event):
 async def handler(event):
     async for usr in edalet.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"Salam 👋🏻 mən çox funksiyalı tağ botuyam\nƏtraflı məlumat üçün '📮 Əmrlər' bölməsinə daxil olun\n\n🎯 Belə bot istəyirsən?\n📥 Yaz: @ilkin085\n\n  Kanal: @IlkinSupport ", buttons=(
+     await event.edit(f"Salam 👋🏻 mən çox funksiyalı tağ botuyam\nƏtraflı məlumat üçün '📮 Əmrlər' bölməsinə daxil olun\n\n🎯 Belə bot istəyirsən?\n📥 Yaz: @ilkin085\n\n ⚙ Kanal: @ilkinsupport ", buttons=(
                      [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/BayramTagBot?startgroup=a')],
                  [Button.inline(f"Əmrlər", data="help")],
                  [Button.url('Support', 'https://t.me/ilkinsupport'),
